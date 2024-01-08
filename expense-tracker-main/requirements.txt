@@ -1,0 +1,9 @@
+streamlit==1.29.0
+streamlit-authenticator==0.2.3
+mysql-connector-python==8.2.0
+pandas>=2.1.4
+sqlalchemy==2.0.23
+xlrd==2.0.1
+yagmail==0.15.293
+PyYAML==6.0.1
+streamlit-aggrid==0.3.4.post3

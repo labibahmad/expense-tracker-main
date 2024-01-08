@@ -1,0 +1,36 @@
+# authendication credintials
+credentials:
+  username:
+    labib:
+      email: labibahmad136@gmail.com
+      name: ahmad ibtisam labib
+      password: $2b$12$8vFelJiYVTet74UCdTBqweC/20AQpf2vSJ0QOJ91SjLFB5i0ORBky # Placeholder for hashed password of 'abc'
+
+cookie:
+  expiry_days: 1
+  key: some_signature_key # Must be string
+  name: some_cookie_name
+preauthorized:
+  emails:
+  - kalim@growwithdata.net
+
+
+
+db:
+  host: "localhost"
+  user: "root"
+  passwd: "root1234"
+  database: "ExpenseDB"
+  auth_plugin: "mysql_native_password"
+
+  
+email_sender:
+  email: "kalim.resource@gmail.com"
+  pass: '@&&@+7'
+
+
+
+
+
+
+#hashed_passwords = stauth.Hasher(['abc', 'def']).generate()
